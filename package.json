@@ -1,12 +1,15 @@
 {
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "pg": "^8.7.1"
-  },
+  "name": "backend",
+  "version": "v16.10.0",
   "scripts": {
     "start": "node src/index.js",
     "build": "ng build",
     "heroku-postbuild": "ng build --prod"
-}
+},
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+
 }
