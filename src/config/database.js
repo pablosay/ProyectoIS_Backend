@@ -8,7 +8,6 @@ const client = new Client({
 })
 
 client.connect((error) => {
-    //hola
     if(error){
         console.log("No se puede conectar a la base de datos");
     } else {
