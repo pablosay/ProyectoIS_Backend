@@ -2,9 +2,7 @@
   "name": "backend",
   "version": "v16.10.0",
   "scripts": {
-    "start": "node src/index.js",
-    "build": "ng build",
-    "heroku-postbuild": "ng build --prod"
+    "start": "node src/index.js"
 },
   "dependencies": {
     "cors": "^2.8.5",
